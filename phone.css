@@ -1,0 +1,325 @@
+
+
+@media screen and (max-width:1383px){
+    .seletores{
+        display: none;
+
+    }/*menu*/
+    .m-phone{
+        width: 100%;
+        text-align: right;
+        padding-top: 15px;
+    }
+    .menu i{
+        color: white;
+        font-size: 40px;
+        padding-right: 20px;
+    }
+    .menuphone{
+        display:none;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.91);
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        justify-items: center;
+        padding-top: 20px;
+    }
+    .abrirmenu{
+        display: block;
+    }
+    .menuphone i{
+        color: white;
+        font-size: 40px;
+    }
+    .menutext{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .menutext a{
+        font-size: 20px;
+        color: rgb(241, 56, 56);
+        text-decoration: none;
+        font-family: "Bangers", system-ui;
+    }
+    .menutext ul li{
+        margin-top: 30px;
+        list-style: none;
+    }
+    .menuphone h1{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .menuphone p{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    /*hearde*/
+    header{
+        background-image: none;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .video-phone{
+        display: block;
+    }
+    header video{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+      z-index: -1;
+    }
+
+    /*--------------*/
+     
+    .box-texto{
+        background-color: transparent;
+        width: 100%;
+        position:static;
+        border-radius: none;
+        padding-top:20px ;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .box-texto h1{
+        font-size: 40px;
+        margin: 20px;
+        text-align: justify;     
+    }
+    .box-texto p{
+        font-size: 20px;
+        padding-left:10px ;
+        padding-right: 10px;
+        text-align: justify; 
+       
+        
+    }
+    /*parte de baixo de quem somos*/
+    section{
+        display: block;
+    }
+    .text-worth{
+        width: 100%;
+        height:max-content;
+    }
+    .text-worth h1{
+        font-size: 50px;
+        padding: 15px;
+    }
+    .text-worth p{
+        font-size: 20px;
+        padding: 15px;
+        
+    }
+    .img-worth{
+        width: 90%;
+        height:200px;
+        margin-top: 20px;
+        padding: 0;
+        margin-left: 5%;
+    }
+    .squer-one{
+        width: 65px;
+        height: 66px;
+    }
+    .squer-two{
+        width: 49px;
+        height: 40px;
+    }/*scroll*/ 
+    .box-scroll{
+        display: block;
+    }
+     .box-scroll  h1{
+        color: #1a3e2a;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .scroll{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+        padding-top: 40px;
+    }
+    .one{
+        background-color: rgb(93, 93, 93);
+        min-width: 60%;
+        max-height: 80%;
+    }
+.primeira{
+    background-image: url(Imagem/ab-img.png);
+    background-size: cover;
+    
+}
+.segunda{
+    background-image: url(Imagem/cd-img.png);
+    background-size: cover;
+}
+.terceira{
+    background-image: url(Imagem/ef-img.png);
+    background-size: cover;
+}
+.quarta{
+    background-image: url(Imagem/CDR_trator.png);
+    background-size: cover;
+}
+
+.textscroll{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px); 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textscroll p{
+    font-size: 20px;
+}
+   /**/
+
+   .phonecall{
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+    background-color: #cae9d7;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .phoneflex{
+    height:70%;
+   }
+   .phonecall h1{
+    color: #1a3e2a;
+    padding-left:15px ;
+    padding-bottom:15px ;
+   }
+   .phonecall p{
+    color: #1a3e2a;
+    padding-left:15px ;
+    padding-bottom:20px ;
+    padding-right: 10px;
+    text-align: justify;
+   }
+   .phonecall button{
+    color: aliceblue;
+    background-color: #1f5836;
+    height: 30px;
+    width: 100px;
+    margin-left:15px ;
+   }
+    /*video segurança*/
+    #videoPlayer{
+        width: 90%;
+        padding-left: 5%;
+        height: auto;
+        
+    }
+    .vdo{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .text-seg{
+        text-align: start;
+        width: 100%;
+        height: 200px;
+    }
+    .text-seg h1{
+        font-size: 20px;
+
+    }
+    .text-seg p{
+        font-size: 20px;
+        
+    }
+    .box-tesc{
+        display: none;
+    }
+    .text-seg{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+    }
+    .text-seg p{
+        font-size: 15px;
+        padding-left: 0;
+        
+    }
+ /* faixa de imagem */
+    .conect{
+        display: none;
+    }
+    /*footer*/
+    footer{
+        display: block;
+        margin-top: 100px;
+    }
+    .cont-center{
+        width: 90%;
+        height:232px ;
+        margin-left: 5%;
+        padding-top: 20px;
+    }
+    footer .textone ul li{
+        font-size: 20px;
+        margin-top:10px
+    }
+    .textone{
+        margin-right:57px;
+    }
+
+    .textone ul li, .texttwo ul li
+    {
+    list-style: none;
+    font-size: 22px;
+    margin: 22px 0px 20px 30px;
+}
+    .phone-footer{
+        display: block;
+    }
+    .phone-footer p{
+        padding: 30px 30px 4px;
+        font-size: 10px;
+    }
+    .phone-footer .redphone i {
+        color: white;
+        padding-left: 5px;
+    }
+    .redphone{
+        padding: 27px;
+    }
+    footer i{
+        padding: 10px ;
+        
+    }
+    footer .rule{
+        padding-top: 5px;
+    }
+    .phone-footer img{
+        width: 100px;
+        height: 100px;
+        padding-left: 15px;
+    }
+
+
+
+}
